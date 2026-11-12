@@ -16,19 +16,51 @@ include 'includes/navbar.php';
 </head>
 <body class="bg-slate-50 text-slate-800 flex flex-col min-h-screen">
 
-    <!-- Header / Navbar -->
- 
 
     <!-- Content -->
     <main class="flex-grow max-w-6xl mx-auto w-full px-4 py-8">
         <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 grid md:grid-cols-3 gap-8">
             <!-- Profile Image & Contact -->
             <div class="text-center md:border-r border-slate-100 md:pr-8">
-                <img src="https://via.placeholder.com/150" alt="Profile" class="w-36 h-36 rounded-full mx-auto mb-4 border-4 border-indigo-50 shadow">
-                <h2 class="text-2xl font-bold">แกง หมู</h2>
-               
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRTobHgS1H6ZrTLPGLtD4l5v-apDFi4ZZAOwE_g3OnfA&s=10">
+                <h2 class="text-2xl font-bold">ภูสิทธิ์ สืบอินทร์</h2>
+                <p class="text-indigo-600 font-medium mb-4"> it / Student</p>
+                <div class="text-sm text-slate-500 space-y-2 text-left">
+                    <p><strong>Email:</strong> example@email.com</p>
+                    <p><strong>Phone:</strong> 08X-XXX-XXXX</p>
+                    <p><strong>Location:</strong> กรุงเทพมหานคร, ไทย</p>
+                </div>
             </div>
 
+            <!-- Bio Details & Skills -->
+            <div class="md:col-span-2 space-y-6">
+                <div>
+                    <h3 class="text-xl font-bold mb-3 border-b pb-2">เกี่ยวกับฉัน</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        สนใจการพัฒนาเว็บไซต์และการออกแบบ UI/UX มีความมุ่งมั่นในการเรียนรู้เทคโนโลยีใหม่ๆ และชื่นชอบการแก้ปัญหาด้วยโซลูชันด้านดิจิทัล
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-bold mb-3 border-b pb-2">ทักษะความสามารถ (Skills)</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">HTML5 / CSS3</span>
+                        <span class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm font-medium">Tailwind CSS</span>
+                        <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">JavaScript</span>
+                        <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">PHP</span>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-bold mb-3 border-b pb-2">ประวัติการศึกษา</h3>
+                    <ul class="space-y-3 text-slate-600">
+                        <li class="flex justify-between">
+                            <span><strong>ปริญญาตรี สาขาวิทยาการคอมพิวเตอร์</strong> — มหาวิทยาลัย...</span>
+                            <span class="text-sm text-slate-400">2025 - ปัจจุบัน</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </main>
 
@@ -44,3 +76,4 @@ include 'includes/navbar.php';
 <?php
 include 'includes/footer.php';
 ?>
+
